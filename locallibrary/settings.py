@@ -155,7 +155,7 @@ DATABASES['default'].update(db_from_env)
 
 ## For example, for a site URL is at 'web-production-3640.up.railway.app'
 ## (replace the string below with your own site URL):
-CSRF_TRUSTED_ORIGINS = ['https://djangolocallibrary-production-ac91.up.railway.app/]
+CSRF_TRUSTED_ORIGINS = ['https://djangolocallibrary-production-ac91.up.railway.app/']
 
 # During development/for this tutorial you can instead set just the base URL
 # CSRF_TRUSTED_ORIGINS = ['https://*.railway.app']
